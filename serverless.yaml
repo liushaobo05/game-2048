@@ -1,0 +1,9 @@
+game2048:
+  component: '@serverless/tencent-website'
+  inputs:
+    code:
+      src: ./ 
+      index: index.html
+      error: index.html
+    region: ap-shanghai
+    bucketName: my-code-bucket
